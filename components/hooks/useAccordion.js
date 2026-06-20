@@ -1,4 +1,6 @@
-import { useState } from 'react';
+"use client";
+
+import { useState } from "react";
 
 const useAccordion = (init = 0) => {
   const [activeIndex, setActiveIndex] = useState(init);

@@ -1,4 +1,6 @@
-import { useState } from 'react';
+"use client";
+
+import { useState } from "react";
 
 const useTabs = (init = 0) => {
   const [activeTab, setActiveTab] = useState(init);

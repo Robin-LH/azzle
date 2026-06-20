@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "imageSrc": "/assets/img/th-1/content-image-1.jpg",
+    "title": "Accessible to a wider audience",
+    "paragraphs": [
+      "Advanced AI capabilities accessible to a broader audience, including small & medium-sized businesses and individuals who may not have the resources or expertise to develop.",
+      "Advanced AI capabilities accessible to a broader audience, including small & medium-sized businesses and individuals who may not have the resources or expertise to develop."
+    ]
+  },
+  {
+    "id": 2,
+    "imageSrc": "/assets/img/th-1/content-image-2.jpg",
+    "title": "Providing quick deploy solutions",
+    "paragraphs": [
+      "Our AI SaaS solutions can be quickly deployed, enabling users to start benefiting from AI capabilities without lengthy setup and development times in fast-paced industries."
+    ],
+    "listItems": [
+      "Ready-to-use AI capabilities system",
+      "Users can quickly integrate AI features",
+      "Time savings translate to cost savings"
+    ]
+  },
+  {
+    "id": 3,
+    "imageSrc": "/assets/img/th-1/content-image-1.jpg",
+    "title": "Accessible to a wider audience",
+    "paragraphs": [
+      "Advanced AI capabilities accessible to a broader audience, including small & medium-sized businesses and individuals who may not have the resources or expertise to develop.",
+      "Advanced AI capabilities accessible to a broader audience, including small & medium-sized businesses and individuals who may not have the resources or expertise to develop."
+    ]
+  },
+  {
+    "id": 4,
+    "imageSrc": "/assets/img/th-1/content-image-2.jpg",
+    "title": "Providing quick deploy solutions",
+    "paragraphs": [
+      "Our AI SaaS solutions can be quickly deployed, enabling users to start benefiting from AI capabilities without lengthy setup and development times in fast-paced industries."
+    ],
+    "listItems": [
+      "Ready-to-use AI capabilities system",
+      "Users can quickly integrate AI features",
+      "Time savings translate to cost savings"
+    ]
+  },
+  {
+    "id": 5,
+    "imageSrc": "/assets/img/th-1/content-image-1.jpg",
+    "title": "Accessible to a wider audience",
+    "paragraphs": [
+      "Advanced AI capabilities accessible to a broader audience, including small & medium-sized businesses and individuals who may not have the resources or expertise to develop.",
+      "Advanced AI capabilities accessible to a broader audience, including small & medium-sized businesses and individuals who may not have the resources or expertise to develop."
+    ]
+  }
+]

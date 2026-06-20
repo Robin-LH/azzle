@@ -1,12 +1,13 @@
-"use client";
 import "@/styles/globals.css";
 import "@/styles/vendors/menu.css";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
-import { usePathname } from "next/navigation";
-import { useEffect } from "react";
+import Script from "next/script";
+import JOSAnimation from "./JOSAnimation";
 import "swiper/css";
 import "swiper/css/navigation";
+import Header_01 from "@/components/header/Header_01";
+import Footer_01 from "@/components/footer/Footer_01";
 
 const DMSans = localFont({
   src: "../fonts/DMSans-Bold.woff2",
@@ -31,46 +32,24 @@ const SpaceGrotesk = localFont({
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export default function RootLayout({ children }) {
-  const pathname = usePathname();
-
-  const jos_options = {
-    passive: false,
-    once: true,
-    animation: "fade-up",
-    timingFunction: "ease",
-    threshold: 0,
-    delay: 0.5,
-    duration: 0.7,
-    scrollDirection: "down",
-    rootMargin: "0% 0% 15% 0%",
-  };
-  useEffect(() => {
-    // JOS.init(jos_options);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  useEffect(() => {
-    // JOS.refresh();
-  }, [pathname]);
-
   return (
     <html lang="en">
       <head>
-        <script>
-          {`
-            var script = document.createElement("script");
-            script.id = "rum-script"; 
-            script.dataset.projectid = "AE-09e16170d6"; 
-            script.type = "text/javascript"; 
-            script.src = "https://gateway-api.sitebeacon.io/v1/sb-script";
-            document.getElementsByTagName('body')[0].appendChild(script);
-          `}
-        </script>
+        <Script
+          id="rum-script"
+          src="https://gateway-api.sitebeacon.io/v1/sb-script"
+          data-projectid="AE-09e16170d6"
+          strategy="afterInteractive"
+        />
       </head>
       <body
         className={`${DMSans.variable} ${ClashDisplay.variable} ${Raleway.variable} ${SpaceGrotesk.variable} ${inter.variable}`}
       >
-        {children}
+        <JOSAnimation>
+          <Header_01 />
+          {children}
+          <Footer_01 />
+        </JOSAnimation>
       </body>
     </html>
   );

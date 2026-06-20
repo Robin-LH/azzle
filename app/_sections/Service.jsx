@@ -1,0 +1,217 @@
+import Image from "next/image";
+import Link from "next/link";
+
+export default function Service() {
+  return (
+    <section id="section-service">
+      {/* Section Spacer */}
+      <div className="pb-20 pt-20 xl:pb-[150px] xl:pt-[130px]">
+        {/* Section Container */}
+        <div className="global-container">
+          {/* Section Content Block */}
+          <div className="jos mb-10 lg:mb-16 xl:mb-20">
+            <div className="md:max-w-sm lg:max-w-xl xl:max-w-[746px]">
+              <h2>Core features that make it valuable</h2>
+            </div>
+          </div>
+          {/* Section Content Block */}
+          {/* Service List */}
+          <ul className="jos grid grid-cols-1 gap-[2px] overflow-hidden rounded-[10px] border-2 border-black bg-black sm:grid-cols-2 lg:grid-cols-4">
+            {/* Service Item */}
+            <li className="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+              <div className="relative mb-9 h-[70px] w-[70px]">
+                <Image
+                  src="/assets/img/th-1/service-icon-black-1.svg"
+                  alt=""
+                  width="70"
+                  height="70"
+                />
+                <Image
+                  src="/assets/img/th-1/service-icon-orange-1.svg"
+                  alt="service-icon-orange-1"
+                  width="70"
+                  height="70"
+                  className="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100"
+                />
+              </div>
+              <h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                <Link href="/service-details" className="hover:text-colorOrangyRed">
+                  Resource Flexibility
+                </Link>
+              </h3>
+
+              <p className="mb-12 duration-300 group-hover:text-white">
+                This is an excellent option for people & small businesses who are starting out.
+              </p>
+
+              <Link
+                href="/service-details"
+                className="relative inline-block h-[30px] w-[30px] duration-300"
+              >
+                <Image
+                  src="/assets/img/th-1/arrow-right-black.svg"
+                  alt="arrow-right-black"
+                  width="30"
+                  height="30"
+                />
+                <Image
+                  src="/assets/img/th-1/arrow-right-orange.svg"
+                  alt="arrow-right-black"
+                  width="30"
+                  height="30"
+                  className="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100"
+                />
+              </Link>
+            </li>
+            {/* Service Item */}
+            {/* Service Item */}
+            <li className="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+              <div className="relative mb-9 h-[70px] w-[70px]">
+                <Image
+                  src="/assets/img/th-1/service-icon-black-2.svg"
+                  alt="service-icon-black-2"
+                  width="70"
+                  height="70"
+                />
+                <Image
+                  src="/assets/img/th-1/service-icon-orange-2.svg"
+                  alt="service-icon-orange-1"
+                  width="70"
+                  height="70"
+                  className="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100"
+                />
+              </div>
+
+              <h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                <Link href="/service-details" className="hover:text-colorOrangyRed">
+                  Managed Services
+                </Link>
+              </h3>
+
+              <p className="mb-12 duration-300 group-hover:text-white">
+                This is an excellent option for people & small businesses who are starting out.
+              </p>
+
+              <Link
+                href="/service-details"
+                className="relative inline-block h-[30px] w-[30px] duration-300"
+              >
+                <Image
+                  src="/assets/img/th-1/arrow-right-black.svg"
+                  alt="arrow-right-black"
+                  width="30"
+                  height="30"
+                />
+                <Image
+                  src="/assets/img/th-1/arrow-right-orange.svg"
+                  alt="arrow-right-black"
+                  width="30"
+                  height="30"
+                  className="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100"
+                />
+              </Link>
+            </li>
+            {/* Service Item */}
+            {/* Service Item */}
+            <li className="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+              <div className="relative mb-9 h-[70px] w-[70px]">
+                <Image
+                  src="/assets/img/th-1/service-icon-black-3.svg"
+                  alt="service-icon-black-3"
+                  width="70"
+                  height="70"
+                />
+                <Image
+                  src="/assets/img/th-1/service-icon-orange-3.svg"
+                  alt="service-icon-orange-3"
+                  width="70"
+                  height="70"
+                  className="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100"
+                />
+              </div>
+              <h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                <Link href="/service-details" className="hover:text-colorOrangyRed">
+                  Web-Based Access
+                </Link>
+              </h3>
+
+              <p className="mb-12 duration-300 group-hover:text-white">
+                This is an excellent option for people & small businesses who are starting out.
+              </p>
+
+              <Link
+                href="/service-details"
+                className="relative inline-block h-[30px] w-[30px] duration-300"
+              >
+                <Image
+                  src="/assets/img/th-1/arrow-right-black.svg"
+                  alt="arrow-right-black"
+                  width="30"
+                  height="30"
+                />
+                <Image
+                  src="/assets/img/th-1/arrow-right-orange.svg"
+                  alt="arrow-right-black"
+                  width="30"
+                  height="30"
+                  className="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100"
+                />
+              </Link>
+            </li>
+            {/* Service Item */}
+            {/* Service Item */}
+            <li className="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+              <div className="relative mb-9 h-[70px] w-[70px]">
+                <Image
+                  src="/assets/img/th-1/service-icon-black-4.svg"
+                  alt="service-icon-black-4"
+                  width="70"
+                  height="70"
+                />
+                <Image
+                  src="/assets/img/th-1/service-icon-orange-4.svg"
+                  alt="service-icon-orange-4"
+                  width="70"
+                  height="70"
+                  className="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100"
+                />
+              </div>
+              <h3 className="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                <Link href="/service-details" className="hover:text-colorOrangyRed">
+                  Resource Flexibility
+                </Link>
+              </h3>
+
+              <p className="mb-12 duration-300 group-hover:text-white">
+                This is an excellent option for people & small businesses who are starting out.
+              </p>
+
+              <Link
+                href="/service-details"
+                className="relative inline-block h-[30px] w-[30px] duration-300"
+              >
+                <Image
+                  src="/assets/img/th-1/arrow-right-black.svg"
+                  alt="arrow-right-black"
+                  width="30"
+                  height="30"
+                />
+                <Image
+                  src="/assets/img/th-1/arrow-right-orange.svg"
+                  alt="arrow-right-black"
+                  width="30"
+                  height="30"
+                  className="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100"
+                />
+              </Link>
+            </li>
+            {/* Service Item */}
+          </ul>
+          {/* Service List */}
+        </div>
+        {/* Section Container */}
+      </div>
+      {/* Section Spacer */}
+    </section>
+  );
+}
