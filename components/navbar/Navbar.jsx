@@ -1,9 +1,9 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
-// eslint-disable-next-line react/prop-types
 const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
   const [mobileSubMenu, setMobileSubMenu] = useState("");
   const [mobileSubMenuSub, setMobileSubMenuSub] = useState("");
@@ -72,58 +72,32 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
         </div>
         <ul className={`site-menu-main ${color}`}>
           {/* Global navbar */}
-          <li onClick={(e) => handleSubMenu(e, 1)} className="nav-item nav-item-has-children">
-            <Link href="#" className="nav-link-item drop-trigger">
-              Demo
-              <Image
-                className="dropdown-icon"
-                src="/assets/img/icon-black-cheveron-right.svg"
-                alt="cheveron-right"
-                width={16}
-                height={16}
-              />
+
+          <li className="nav-item">
+            <Link href="/services" className="nav-link-item">
+              Services
             </Link>
-            <ul className={`sub-menu ${mobileSubMenu === 1 && "active"}`} id="submenu-1">
-              <li className="sub-menu--item">
-                <Link href="/">home 01</Link>
-              </li>
-              <li className="sub-menu--item">
-                <Link href="/home-2">home 02</Link>
-              </li>
-              <li className="sub-menu--item">
-                <Link href="/home-3">home 03</Link>
-              </li>
-              <li className="sub-menu--item">
-                <Link href="/home-4"> home 04</Link>
-              </li>
-            </ul>
           </li>
+
+          <li className="nav-item">
+            <Link href="/blogs" className="nav-link-item">
+              Blogs
+            </Link>
+          </li>
+
           <li className="nav-item">
             <Link href="/about" className="nav-link-item">
               About
             </Link>
           </li>
-          <li onClick={(e) => handleSubMenu(e, 2)} className="nav-item nav-item-has-children">
-            <Link href="#" className="nav-link-item drop-trigger">
-              Services
-              <Image
-                className="dropdown-icon"
-                src="/assets/img/icon-black-cheveron-right.svg"
-                alt="cheveron-right"
-                width={16}
-                height={16}
-              />
+
+          <li className="nav-item">
+            <Link href="/contact" className="nav-link-item">
+              Contact
             </Link>
-            <ul className={`sub-menu ${mobileSubMenu === 2 && "active"}`} id="submenu-2">
-              <li className="sub-menu--item">
-                <Link href="/services">Services</Link>
-              </li>
-              <li className="sub-menu--item">
-                <Link href="/service-details">Service Details</Link>
-              </li>
-            </ul>
           </li>
-          <li onClick={(e) => handleSubMenu(e, 3)} className="nav-item nav-item-has-children">
+
+          {/* <li onClick={(e) => handleSubMenu(e, 3)} className="nav-item nav-item-has-children">
             <Link href="#" className="nav-link-item drop-trigger">
               Pages
               <Image
@@ -277,12 +251,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
                 </ul>
               </li>
             </ul>
-          </li>
-          <li className="nav-item">
-            <Link href="/contact" className="nav-link-item">
-              Contact
-            </Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>

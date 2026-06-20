@@ -6,8 +6,8 @@ import Script from "next/script";
 import JOSAnimation from "./JOSAnimation";
 import "swiper/css";
 import "swiper/css/navigation";
-import Header_01 from "@/components/header/Header_01";
-import Footer_01 from "@/components/footer/Footer_01";
+import Header from "@/app/_sections/Header";
+import Footer from "@/app/_sections/Footer";
 
 const DMSans = localFont({
   src: "../fonts/DMSans-Bold.woff2",
@@ -46,9 +46,9 @@ export default function RootLayout({ children }) {
         className={`${DMSans.variable} ${ClashDisplay.variable} ${Raleway.variable} ${SpaceGrotesk.variable} ${inter.variable}`}
       >
         <JOSAnimation>
-          <Header_01 />
+          <Header />
           {children}
-          <Footer_01 />
+          <Footer />
         </JOSAnimation>
       </body>
     </html>
