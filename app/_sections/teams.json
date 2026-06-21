@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "slug": "mr-abraham-maslo",
+    "name": "Mr. Abraham Maslo",
+    "role": "Chief AI Officer",
+    "image": "/assets/img/th-1/team-member-img-1.jpg",
+    "social": {
+      "facebook": "http://www.facebook.com",
+      "twitter": "http://www.twitter.com",
+      "linkedin": "http://www.linkedin.com",
+      "instagram": "http://www.instagram.com"
+    },
+    "bio": [
+      "As the Chief AI Officer at Mthemeus, Mr. Abraham is at the forefront of harnessing the power of artificial intelligence (AI) to drive innovation and transform our business landscape.",
+      "With a background in AI tech expert, he is leads our AI strategy, overseeing the development and implementation of cutting-edge AI and also machine learning initiatives. With a passion for technology and a track record of successful AI projects in our companys journey."
+    ],
+    "bioHeader": "Heres an overview of the role and responsibilities of a Chief AI Officer:",
+    "skills": [
+      { "title": "1. AI Strategy:", "description": "The CAIO plays a pivotal role in shaping the organizations AI strategy. They work closely with senior leadership." },
+      { "title": "2. Technology Evaluation:", "description": "He assess emerging AI technologies, tools, and platforms to determine which ones are suitable for the organization." },
+      { "title": "3. AI Project Oversight:", "description": "The CAIO oversees the planning and execution of AI & ML projects throughout the organization." },
+      { "title": "4. Data Management:", "description": "Data is a critical component of AI, and the CAIO often manages the organizations data strategy." },
+      { "title": "5. Risk Management:", "description": "He is also responsible for identifying and mitigating AI-related risks, including also ethical considerations" },
+      { "title": "6. Innovation:", "description": "The CAIO fosters a culture of innovation by encouraging experimentation with AI technologies, promoting research." }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "willium-robert",
+    "name": "Willium Robert",
+    "role": "Data Engineer",
+    "image": "/assets/img/th-1/team-member-img-2.jpg",
+    "social": {
+      "facebook": "http://www.facebook.com",
+      "twitter": "http://www.twitter.com",
+      "linkedin": "http://www.linkedin.com",
+      "instagram": "http://www.instagram.com"
+    },
+    "bio": [
+      "As a Senior Data Engineer, Willium Robert specializes in building and optimizing data architectures and pipelines that power our AI engines.",
+      "He plays an essential role in ensuring data quality, reliability, and security across all cloud repositories, facilitating seamless deployment of machine learning applications."
+    ],
+    "bioHeader": "Heres an overview of the role and responsibilities of a Data Engineer:",
+    "skills": [
+      { "title": "1. Pipeline Design:", "description": "Designing and deploying highly scalable, reliable ETL/ELT data pipelines." },
+      { "title": "2. Data Quality:", "description": "Implementing validation mechanisms to maintain data integrity and consistency." },
+      { "title": "3. Cloud Architecture:", "description": "Leveraging modern cloud data warehouses and serverless computing technologies." },
+      { "title": "4. Database Tuning:", "description": "Optimizing SQL and NoSQL database query performances for speed and scale." },
+      { "title": "5. Security Controls:", "description": "Enforcing access control, encryption, and GDPR/CCPA data compliance protocols." },
+      { "title": "6. Team Collaboration:", "description": "Working closely with data scientists to construct feature stores for model training." }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "henry-fayol",
+    "name": "Henry Fayol",
+    "role": "Research Scientist",
+    "image": "/assets/img/th-1/team-member-img-3.jpg",
+    "social": {
+      "facebook": "http://www.facebook.com",
+      "twitter": "http://www.twitter.com",
+      "linkedin": "http://www.linkedin.com",
+      "instagram": "http://www.instagram.com"
+    },
+    "bio": [
+      "Dr. Henry Fayol leads our AI research group, pushing the boundaries of neural network architectures and deep learning frameworks.",
+      "His published research papers and patents on natural language understanding and reinforcement learning form the core IP of our products."
+    ],
+    "bioHeader": "Heres an overview of the role and responsibilities of a Research Scientist:",
+    "skills": [
+      { "title": "1. Algorithm Research:", "description": "Investigating new mathematical algorithms and deep learning methodologies." },
+      { "title": "2. Model Prototyping:", "description": "Building experimental proof-of-concept models using PyTorch and JAX." },
+      { "title": "3. Patent Filing:", "description": "Securing intellectual property by patenting novel neural net concepts." },
+      { "title": "4. Peer Collaboration:", "description": "Publishing breakthroughs in leading AI conferences such as NeurIPS and ICML." },
+      { "title": "5. Benchmarking:", "description": "Validating model performance metrics against global industry baselines." },
+      { "title": "6. Technology Transfer:", "description": "Assisting engineering teams in transitioning raw research into production software." }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "henry-martine",
+    "name": "Henry Martine",
+    "role": "AI Researcher",
+    "image": "/assets/img/th-1/team-member-img-4.jpg",
+    "social": {
+      "facebook": "http://www.facebook.com",
+      "twitter": "http://www.twitter.com",
+      "linkedin": "http://www.linkedin.com",
+      "instagram": "http://www.instagram.com"
+    },
+    "bio": [
+      "Henry Martine works in our advanced R&D division, focusing on computer vision models and generative AI technologies.",
+      "His work involves refining hyperparameter tuning strategies and designing lightweight networks optimized for edge devices."
+    ],
+    "bioHeader": "Heres an overview of the role and responsibilities of an AI Researcher:",
+    "skills": [
+      { "title": "1. Deep Learning:", "description": "Developing vision transformers, CNNs, and diffusion models for production use." },
+      { "title": "2. Optimization:", "description": "Pruning and quantizing neural network parameters to minimize model size." },
+      { "title": "3. Data Annotation:", "description": "Establishing rigorous standards for training data tagging and curation." },
+      { "title": "4. System Integration:", "description": "Ensuring smooth integration of models with existing application backends." },
+      { "title": "5. Testing Frameworks:", "description": "Creating robust verification pipelines to detect and eliminate model biases." },
+      { "title": "6. Future Scouting:", "description": "Identifying emerging market opportunities using advanced cognitive technologies." }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "jack-fox",
+    "name": "Jack Fox",
+    "role": "NLP Expert",
+    "image": "/assets/img/th-1/team-member-img-5.jpg",
+    "social": {
+      "facebook": "http://www.facebook.com",
+      "twitter": "http://www.twitter.com",
+      "linkedin": "http://www.linkedin.com",
+      "instagram": "http://www.instagram.com"
+    },
+    "bio": [
+      "Jack Fox is our resident Natural Language Processing expert, responsible for fine-tuning Large Language Models (LLMs) and training customized chatbots.",
+      "With a strong background in linguistics and machine translation, Jack builds text classification and sentiment analysis systems."
+    ],
+    "bioHeader": "Heres an overview of the role and responsibilities of an NLP Expert:",
+    "skills": [
+      { "title": "1. LLM Fine-tuning:", "description": "Adapting open-source foundational models to domain-specific customer support tasks." },
+      { "title": "2. Prompt Engineering:", "description": "Creating structured prompt systems and system instructions for reliable outputs." },
+      { "title": "3. Embeddings & Search:", "description": "Designing vector database search strategies for Retrieval-Augmented Generation." },
+      { "title": "4. Tokenization:", "description": "Handling language encoding pipelines and parsing complex semantic structures." },
+      { "title": "5. Chatbot UX:", "description": "Improving agent conversation flows to make interaction feel natural and fluent." },
+      { "title": "6. Translation Systems:", "description": "Building multilingual localization services using custom translation layers." }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "adam-smith",
+    "name": "Adam Smith",
+    "role": "Project Manager",
+    "image": "/assets/img/th-1/team-member-img-6.jpg",
+    "social": {
+      "facebook": "http://www.facebook.com",
+      "twitter": "http://www.twitter.com",
+      "linkedin": "http://www.linkedin.com",
+      "instagram": "http://www.instagram.com"
+    },
+    "bio": [
+      "Adam Smith bridges the gap between technology and business, coordinating our AI software releases and product roadmaps.",
+      "He employs agile methodologies to manage sprints, resources, and stakeholder communications effectively across all teams."
+    ],
+    "bioHeader": "Heres an overview of the role and responsibilities of a Project Manager:",
+    "skills": [
+      { "title": "1. Agile Sprints:", "description": "Facilitating daily standups, backlog grooming, and retrospective reviews." },
+      { "title": "2. Risk Mitigation:", "description": "Identifying project bottlenecks early and adjusting resource allocation." },
+      { "title": "3. Stakeholder Comm:", "description": "Aligning product delivery milestones with executive business expectations." },
+      { "title": "4. Task Management:", "description": "Tracking task execution status across JIRA, GitHub, and linear platforms." },
+      { "title": "5. Budget Allocation:", "description": "Managing software tooling subscriptions and developer resource budgets." },
+      { "title": "6. Team Building:", "description": "Creating a positive, high-performing environment that fosters team health." }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "joo-bitler",
+    "name": "Joo Bitler",
+    "role": "Cyber Expert",
+    "image": "/assets/img/th-1/team-member-img-7.jpg",
+    "social": {
+      "facebook": "http://www.facebook.com",
+      "twitter": "http://www.twitter.com",
+      "linkedin": "http://www.linkedin.com",
+      "instagram": "http://www.instagram.com"
+    },
+    "bio": [
+      "Joo Bitler secures our AI infrastructure, specializing in ML security frameworks, penetration testing, and intrusion prevention.",
+      "His continuous threat auditing protects our data vaults from external breaches, model inversion attacks, and toxic inputs."
+    ],
+    "bioHeader": "Heres an overview of the role and responsibilities of a Cyber Expert:",
+    "skills": [
+      { "title": "1. Threat Auditing:", "description": "Conducting regular network penetration tests and security architecture audits." },
+      { "title": "2. Adversarial Defense:", "description": "Preventing model manipulation and data poisoning attempts from attackers." },
+      { "title": "3. IAM Infrastructure:", "description": "Configuring secure identity and access management for internal developer APIs." },
+      { "title": "4. Incident Response:", "description": "Defining containment guidelines and runbooks for hypothetical breach events." },
+      { "title": "5. Policy Compliance:", "description": "Aligning corporate networks with ISO 27001, SOC2, and NIS2 cybersecurity standards." },
+      { "title": "6. Safe Coding:", "description": "Training engineers in secure coding practices to eliminate common web exploits." }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "homi-corn",
+    "name": "Homi Corn",
+    "role": "HR Manager",
+    "image": "/assets/img/th-1/team-member-img-8.jpg",
+    "social": {
+      "facebook": "http://www.facebook.com",
+      "twitter": "http://www.twitter.com",
+      "linkedin": "http://www.linkedin.com",
+      "instagram": "http://www.instagram.com"
+    },
+    "bio": [
+      "Homi Corn leads talent acquisition and corporate culture, building the team that designs the future of AI.",
+      "With a focus on developer well-being, diversity, and talent development, she manages our onboarding and recruitment programs."
+    ],
+    "bioHeader": "Heres an overview of the role and responsibilities of an HR Manager:",
+    "skills": [
+      { "title": "1. Talent Acquisition:", "description": "Running recruitment channels and interview pipelines for top-tier software engineers." },
+      { "title": "2. Onboarding UX:", "description": "Designing a comprehensive onboarding program that integrates new hires in days." },
+      { "title": "3. Talent Development:", "description": "Structuring training resources, learning credits, and performance cycles." },
+      { "title": "4. Diversity & Inclusion:", "description": "Fostering an open, unbiased environment that respects cultural diversity." },
+      { "title": "5. Conflict Resolution:", "description": "Serving as a mediator to resolve interpersonal disputes and maintain trust." },
+      { "title": "6. Benefits Management:", "description": "Administering medical plans, hybrid work stipends, and wellness programs." }
+    ]
+  }
+]

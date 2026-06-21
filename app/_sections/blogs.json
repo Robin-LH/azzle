@@ -1,0 +1,134 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "10 ways to supercharge startup with AI integration",
+      "category": "Business",
+      "date": "June 12, 2024",
+      "image": "/assets/img/th-1/blog-main-1.jpg",
+      "description": "The rapid advancements in AI have paved the way for startups to revolutionize various industries, from healthcare to finance, by leveraging the power of machine learning and automation.",
+      "link": "/blogs/10-ways-to-supercharge-startup-with-ai-integration"
+    },
+    {
+      "id": 2,
+      "title": "Testing AI tools to improve product descriptions",
+      "category": "Technology",
+      "date": "June 10, 2024",
+      "image": "/assets/img/th-1/blog-main-2.jpg",
+      "description": "Amazon is currently testing generative artificial intelligence (AI) tools for...",
+      "link": "/blogs/testing-ai-tools-to-improve-product-descriptions"
+    },
+    {
+      "id": 3,
+      "title": "3 best AI businesses to make money with in 2024",
+      "category": "Marketing",
+      "date": "June 09, 2024",
+      "image": "/assets/img/th-1/blog-main-3.jpg",
+      "description": "Everyone is buzzing about AI and its potential to revolutionize the business...",
+      "link": "/blogs/3-best-ai-businesses-to-make-money-with-in-2024"
+    },
+    {
+      "id": 4,
+      "title": "Phrase gives AI-generated content for me at a glance",
+      "category": "Artificial Intelligence",
+      "date": "June 07, 2024",
+      "image": "/assets/img/th-1/blog-main-4.jpg",
+      "description": "While this is incredibly rewarding and has sharpened my editorial skills...",
+      "link": "/blogs/phrase-gives-ai-generated-content-for-me-at-a-glance"
+    },
+    {
+      "id": 5,
+      "title": "Testing out Stabilization AI s free image editing tool",
+      "category": "Graphics",
+      "date": "June 05, 2024",
+      "image": "/assets/img/th-1/blog-main-5.jpg",
+      "description": "Stability AI is the company that created an open-source AI image generator...",
+      "link": "/blogs/testing-out-stabilization-ai-s-free-image-editing-tool"
+    },
+    {
+      "id": 6,
+      "title": "How to started using AI-based tools as a designer",
+      "category": "UI/UX",
+      "date": "June 01, 2024",
+      "image": "/assets/img/th-1/blog-main-6.jpg",
+      "description": "Acting on Jakob Nielsen’s stunning prediction of AI being the future...",
+      "link": "/blogs/how-to-started-using-ai-based-tools-as-a-designer"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Business & Marketing",
+      "count": 18,
+      "link": "/blogs/categories/business-and-marketing"
+    },
+    {
+      "id": 2,
+      "title": "Technology",
+      "count": 5,
+      "link": "/blogs/categories/technology"
+    },
+    {
+      "id": 3,
+      "title": "Art & Beauty",
+      "count": 23,
+      "link": "/blogs/categories/art-and-beauty"
+    },
+    {
+      "id": 4,
+      "title": "Digital Agency",
+      "count": 10,
+      "link": "/blogs/categories/digital-agency"
+    }
+  ],
+  "recentPosts": [
+    {
+      "id": 1,
+      "title": "6 profitable AI tech businesses to start",
+      "image": "/assets/img/th-1/blog-recent-img-1.jpg",
+      "date": "June 12, 2024",
+      "link": "/blogs/6-profitable-ai-tech-businesses-to-start"
+    },
+    {
+      "id": 2,
+      "title": "Why i decided to sell my B2B SaaS AI business",
+      "image": "/assets/img/th-1/blog-recent-img-2.jpg",
+      "date": "June 13, 2024",
+      "link": "/blogs/why-i-decided-to-sell-my-b2b-saas-ai-business"
+    },
+    {
+      "id": 3,
+      "title": "8 AI tools that will your streamline workflows",
+      "image": "/assets/img/th-1/blog-recent-img-3.jpg",
+      "date": "June 07, 2024",
+      "link": "/blogs/8-ai-tools-that-will-your-streamline-workflows"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Article",
+      "link": "/blogs/tags/article"
+    },
+    {
+      "id": 2,
+      "name": "Business",
+      "link": "/blogs/tags/business"
+    },
+    {
+      "id": 3,
+      "name": "Digital",
+      "link": "/blogs/tags/digital"
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "link": "/blogs/tags/technology"
+    },
+    {
+      "id": 5,
+      "name": "UI/UX",
+      "link": "/blogs/tags/ui-ux"
+    }
+  ]
+}

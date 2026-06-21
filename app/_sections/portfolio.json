@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Natural language processing models to extract insights",
+    "image": "/assets/img/th-1/portfolio-img-1.jpg",
+    "delay": "0.1",
+    "link": "/portfolio/natural-language-processing-models-to-extract-insights"
+  },
+  {
+    "id": 2,
+    "title": "Create an modern AI-powered educational platform",
+    "image": "/assets/img/th-1/portfolio-img-2.jpg",
+    "delay": "0.2",
+    "link": "/portfolio/create-an-modern-ai-powered-educational-platform"
+  },
+  {
+    "id": 3,
+    "title": "Develop a content generation system that uses AI system",
+    "image": "/assets/img/th-1/portfolio-img-3.jpg",
+    "delay": "0.3",
+    "link": "/portfolio/develop-a-content-generation-system-that-uses-ai-system"
+  },
+  {
+    "id": 4,
+    "title": "Implement a predictive maintenance system with AI",
+    "image": "/assets/img/th-1/portfolio-img-4.jpg",
+    "delay": "0.4",
+    "link": "/portfolio/implement-a-predictive-maintenance-system-with-ai"
+  },
+  {
+    "id": 5,
+    "title": "Build an AI solution for precision agriculture",
+    "image": "/assets/img/th-1/portfolio-img-5.jpg",
+    "delay": "0.5",
+    "link": "/portfolio/build-an-ai-solution-for-precision-agriculture"
+  },
+  {
+    "id": 6,
+    "title": "AI for large corporations and businesses across industries",
+    "image": "/assets/img/th-1/portfolio-img-6.jpg",
+    "delay": "0.6",
+    "link": "/portfolio/ai-for-large-corporations-and-businesses-across-industries"
+  }
+]

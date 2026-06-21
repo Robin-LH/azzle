@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "name": "Free",
+    "members": "1 member",
+    "price": {
+      "monthly": "$0",
+      "annually": "$0"
+    },
+    "period": {
+      "monthly": "/Per month",
+      "annually": "/Annual"
+    },
+    "description": "Ideal for individuals person and small businesses just getting started.",
+    "features": [
+      "AI-Ready Data Prep",
+      "Feature Engineering",
+      "Classification Models"
+    ],
+    "link": "/pricing"
+  },
+  {
+    "id": 2,
+    "name": "Beginner",
+    "members": "Up to 10 members",
+    "price": {
+      "monthly": "$25",
+      "annually": "$240"
+    },
+    "period": {
+      "monthly": "/Per month",
+      "annually": "/Annual"
+    },
+    "description": "This is an excellent option for people & small businesses who are starting out.",
+    "features": [
+      "AI-Ready Data Prep",
+      "Feature Engineering",
+      "Classification Models",
+      "Regression Models"
+    ],
+    "link": "/pricing"
+  },
+  {
+    "id": 3,
+    "name": "Starter",
+    "members": "Up to 50 members",
+    "price": {
+      "monthly": "$89",
+      "annually": "$960"
+    },
+    "period": {
+      "monthly": "/Per month",
+      "annually": "/Annual"
+    },
+    "description": "This plan is suitable for e-commerce stores as well as professional blogs.",
+    "features": [
+      "AI-Ready Data Prep",
+      "Feature Engineering",
+      "Classification Models",
+      "Regression Models",
+      "Time Series Models"
+    ],
+    "link": "/pricing"
+  },
+  {
+    "id": 4,
+    "name": "Pro",
+    "members": "Up to 100 members",
+    "price": {
+      "monthly": "$199",
+      "annually": "$1800"
+    },
+    "period": {
+      "monthly": "/Per month",
+      "annually": "/Annual"
+    },
+    "description": "Ideal for handling complicated projects enterprise-level projects, and websites.",
+    "features": [
+      "AI-Ready Data Prep",
+      "Feature Engineering",
+      "Classification Models",
+      "Regression Models",
+      "Time Series Models",
+      "Clustering models"
+    ],
+    "link": "/pricing"
+  }
+]
