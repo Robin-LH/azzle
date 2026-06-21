@@ -12,8 +12,8 @@ function Breadcrumb({ title }) {
         <div className="breadcrumb-wrapper">
           <div className="global-container">
             <div className="breadcrumb-block">
-              <h1 className="breadcrumb-title">{title}</h1>
-              <ul className="breadcrumb-nav">
+              <h1 className="breadcrumb-title capitalize w-full">{title}</h1>
+              <ul className="breadcrumb-nav capitalize">
                 <li>
                   <Link href="/">Home</Link>
                 </li>

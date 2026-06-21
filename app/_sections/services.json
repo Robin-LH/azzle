@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "iconBlack": "/assets/img/th-1/service-icon-black-1.svg",
+    "iconOrange": "/assets/img/th-1/service-icon-orange-1.svg",
+    "title": "Resource Flexibility",
+    "description": "This is an excellent option for people & small businesses who are starting out.",
+    "link": "/services/resource-flexibility"
+  },
+  {
+    "id": 2,
+    "iconBlack": "/assets/img/th-1/service-icon-black-2.svg",
+    "iconOrange": "/assets/img/th-1/service-icon-orange-2.svg",
+    "title": "Managed Services",
+    "description": "This is an excellent option for people & small businesses who are starting out.",
+    "link": "/services/managed-services"
+  },
+  {
+    "id": 3,
+    "iconBlack": "/assets/img/th-1/service-icon-black-3.svg",
+    "iconOrange": "/assets/img/th-1/service-icon-orange-3.svg",
+    "title": "Web-Based Access",
+    "description": "This is an excellent option for people & small businesses who are starting out.",
+    "link": "/services/web-based-access"
+  },
+  {
+    "id": 4,
+    "iconBlack": "/assets/img/th-1/service-icon-black-4.svg",
+    "iconOrange": "/assets/img/th-1/service-icon-orange-4.svg",
+    "title": "Resource Flexibility",
+    "description": "This is an excellent option for people & small businesses who are starting out.",
+    "link": "/services/resource-flexibility"
+  },
+  {
+    "id": 5,
+    "iconBlack": "/assets/img/th-1/service-icon-black-5.svg",
+    "iconOrange": "/assets/img/th-1/service-icon-orange-5.svg",
+    "title": "Anomaly Detection",
+    "description": "AI SaaS can analyze IoT sensor data to detect predict equipment failures.",
+    "link": "/services/anomaly-detection"
+  },
+  {
+    "id": 6,
+    "iconBlack": "/assets/img/th-1/service-icon-black-6.svg",
+    "iconOrange": "/assets/img/th-1/service-icon-orange-6.svg",
+    "title": "Predictive Analytics",
+    "description": "Solutions that use AI to predict future trends and outcomes, such as demand forecasting.",
+    "link": "/services/predictive-analytics"
+  },
+  {
+    "id": 7,
+    "iconBlack": "/assets/img/th-1/service-icon-black-7.svg",
+    "iconOrange": "/assets/img/th-1/service-icon-orange-7.svg",
+    "title": "Speech Recognition",
+    "description": "Speech recognition services convert spoken language into text and accessibility.",
+    "link": "/services/speech-recognition"
+  },
+  {
+    "id": 8,
+    "iconBlack": "/assets/img/th-1/service-icon-black-8.svg",
+    "iconOrange": "/assets/img/th-1/service-icon-orange-8.svg",
+    "title": "Computer Vision",
+    "description": "Computer vision services use AI to interpret and process visual information.",
+    "link": "/services/computer-vision"
+  }
+]
