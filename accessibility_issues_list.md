@@ -7,7 +7,7 @@ This document lists the web accessibility rules covered by **Axe-core (v4.7.0)**
 | Title / Description | Standards & Tags | Axe-core Rule ID | IBM Checker Rule ID (Equivalent) |
 | :--- | :--- | :--- | :--- |
 | **accesskey attribute value should be unique** | `Best Practice` | `accesskeys` | `style_accesskey_unique` |
-| **Active <area> elements must have alternate text** | `WCAG 2.0 A`, `WCAG 2.4.4`, `WCAG 4.1.2`, `Section 508`, `508 22.a` | `area-alt` | `area_alt_exists` |
+| **Active `<area>` elements must have alternate text** | `WCAG 2.0 A`, `WCAG 2.4.4`, `WCAG 4.1.2`, `Section 508`, `508 22.a` | `area-alt` | `area_alt_exists` |
 | **Elements must only use allowed ARIA attributes** | `WCAG 2.0 A`, `WCAG 4.1.2` | `aria-allowed-attr` | `aria_attribute_allowed` |
 | **ARIA role should be appropriate for the element** | `Best Practice` | `aria-allowed-role` | `aria_role_allowed` |
 | **ARIA commands must have an accessible name** | `WCAG 2.0 A`, `WCAG 4.1.2` | `aria-command-name` | `aria_button_name` |
@@ -28,18 +28,18 @@ This document lists the web accessibility rules covered by **Axe-core (v4.7.0)**
 | **ARIA treeitem nodes should have an accessible name** | `Best Practice` | `aria-treeitem-name` | `aria_treeitem_name` |
 | **ARIA attributes must conform to valid values** | `WCAG 2.0 A`, `WCAG 4.1.2` | `aria-valid-attr-value` | `aria_attribute_value_valid` |
 | **ARIA attributes must conform to valid names** | `WCAG 2.0 A`, `WCAG 4.1.2` | `aria-valid-attr` | `aria_attribute_valid` |
-| **<audio> elements must have a captions track** | `WCAG 2.0 A`, `WCAG 1.2.1`, `Section 508`, `508 22.a`, `deprecated` | `audio-caption` | `video_caption_exists` |
+| **`<audio>` elements must have a captions track** | `WCAG 2.0 A`, `WCAG 1.2.1`, `Section 508`, `508 22.a`, `deprecated` | `audio-caption` | `video_caption_exists` |
 | **autocomplete attribute must be used correctly** | `WCAG 2.1 AA`, `WCAG 1.3.5` | `autocomplete-valid` | `input_autocomplete_valid` |
 | **Inline text spacing must be adjustable with custom stylesheets** | `WCAG 2.1 AA`, `WCAG 1412` | `avoid-inline-spacing` | `style_text_spacing` |
-| **<blink> elements are deprecated and must not be used** | `WCAG 2.0 A`, `WCAG 2.2.2`, `Section 508`, `508 22.j` | `blink` | `blink_elem_deprecated` |
+| **`<blink>` elements are deprecated and must not be used** | `WCAG 2.0 A`, `WCAG 2.2.2`, `Section 508`, `508 22.j` | `blink` | `blink_elem_deprecated` |
 | **Buttons must have discernible text** | `WCAG 2.0 A`, `WCAG 4.1.2`, `Section 508`, `508 22.a` | `button-name` | `button_text_exists` |
 | **Page must have means to bypass repeated blocks** | `WCAG 2.0 A`, `WCAG 2.4.1`, `Section 508`, `508 22.o` | `bypass` | `skip_link_exists` |
 | **Elements must meet enhanced color contrast ratio thresholds** | `WCAG 2.0 AAA`, `WCAG 1.4.6` | `color-contrast-enhanced` | `style_color_contrast` |
 | **Elements must meet minimum color contrast ratio thresholds** | `WCAG 2.a.a`, `WCAG 1.4.3` | `color-contrast` | `style_color_contrast` |
 | **CSS Media queries must not lock display orientation** | `WCAG 1.3.4`, `WCAG 2.1 AA`, `experimental` | `css-orientation-lock` | *N/A (Axe Specific)* |
-| **<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements** | `WCAG 2.0 A`, `WCAG 1.3.1` | `definition-list` | `list_structure_proper` |
-| **<dt> and <dd> elements must be contained by a <dl>** | `WCAG 2.0 A`, `WCAG 1.3.1` | `dlitem` | `listitem_parent_proper` |
-| **Documents must have <title> element to aid in navigation** | `WCAG 2.0 A`, `WCAG 2.4.2` | `document-title` | `page_title_exists` |
+| **`<dl>` elements must only directly contain properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements** | `WCAG 2.0 A`, `WCAG 1.3.1` | `definition-list` | `list_structure_proper` |
+| **`<dt>` and `<dd>` elements must be contained by a `<dl>`** | `WCAG 2.0 A`, `WCAG 1.3.1` | `dlitem` | `listitem_parent_proper` |
+| **Documents must have `<title>` element to aid in navigation** | `WCAG 2.0 A`, `WCAG 2.4.2` | `document-title` | `page_title_exists` |
 | **IDs of active elements must be unique** | `WCAG 2.0 A`, `WCAG 4.1.1` | `duplicate-id-active` | `element_id_unique` |
 | **IDs used in ARIA and labels must be unique** | `WCAG 2.0 A`, `WCAG 4.1.1` | `duplicate-id-aria` | `element_id_unique` |
 | **id attribute value must be unique** | `WCAG 2.0 A`, `WCAG 4.1.1` | `duplicate-id` | `element_id_unique` |
@@ -53,8 +53,8 @@ This document lists the web accessibility rules covered by **Axe-core (v4.7.0)**
 | **Frames must have an accessible name** | `WCAG 2.0 A`, `WCAG 4.1.2`, `Section 508`, `508 22.i` | `frame-title` | `frame_title_exists` |
 | **Heading levels should only increase by one** | `Best Practice` | `heading-order` | `heading_exists` |
 | **Hidden content on the page should be analyzed** | `experimental`, `review-item`, `Best Practice` | `hidden-content` | *N/A (Axe Specific)* |
-| **<html> element must have a lang attribute** | `WCAG 2.0 A`, `WCAG 3.1.1` | `html-has-lang` | `html_lang_exists` |
-| **<html> element must have a valid value for the lang attribute** | `WCAG 2.0 A`, `WCAG 3.1.1` | `html-lang-valid` | `html_lang_valid` |
+| **`<html>` element must have a lang attribute** | `WCAG 2.0 A`, `WCAG 3.1.1` | `html-has-lang` | `html_lang_exists` |
+| **`<html>` element must have a valid value for the lang attribute** | `WCAG 2.0 A`, `WCAG 3.1.1` | `html-lang-valid` | `html_lang_valid` |
 | **HTML elements with lang and xml:lang must have the same base language** | `WCAG 2.0 A`, `WCAG 3.1.1` | `html-xml-lang-mismatch` | `html_lang_valid` |
 | **Links with the same name must have a similar purpose** | `WCAG 2.0 AAA`, `WCAG 2.4.9` | `identical-links-same-purpose` | `link_text_exists` |
 | **Images must have alternate text** | `WCAG 2.0 A`, `WCAG 1.1.1`, `Section 508`, `508 22.a` | `image-alt` | `img_alt_valid` |
@@ -75,17 +75,17 @@ This document lists the web accessibility rules covered by **Axe-core (v4.7.0)**
 | **Ensures landmarks are unique** | `Best Practice` | `landmark-unique` | `aria_landmark_exists` |
 | **Links must be distinguishable without relying on color** | `WCAG 2.0 A`, `WCAG 1.4.1` | `link-in-text-block` | `style_color_meaning` |
 | **Links must have discernible text** | `WCAG 2.0 A`, `WCAG 4.1.2`, `WCAG 2.4.4`, `Section 508`, `508 22.a` | `link-name` | `link_text_exists` |
-| **<ul> and <ol> must only directly contain <li>, <script> or <template> elements** | `WCAG 2.0 A`, `WCAG 1.3.1` | `list` | `list_structure_proper` |
-| **<li> elements must be contained in a <ul> or <ol>** | `WCAG 2.0 A`, `WCAG 1.3.1` | `listitem` | `listitem_parent_proper` |
-| **<marquee> elements are deprecated and must not be used** | `WCAG 2.0 A`, `WCAG 2.2.2` | `marquee` | `marquee_elem_deprecated` |
+| **`<ul>` and `<ol>` must only directly contain `<li>`, `<script>` or `<template>` elements** | `WCAG 2.0 A`, `WCAG 1.3.1` | `list` | `list_structure_proper` |
+| **`<li>` elements must be contained in a `<ul>` or `<ol>`** | `WCAG 2.0 A`, `WCAG 1.3.1` | `listitem` | `listitem_parent_proper` |
+| **`<marquee>` elements are deprecated and must not be used** | `WCAG 2.0 A`, `WCAG 2.2.2` | `marquee` | `marquee_elem_deprecated` |
 | **Delayed refresh must not be used** | `WCAG 2.0 AAA`, `WCAG 2.2.4`, `WCAG 3.2.5` | `meta-refresh-no-exceptions` | `meta_refresh_delay` |
 | **Delayed refresh under 20 hours must not be used** | `WCAG 2.0 A`, `WCAG 2.2.1` | `meta-refresh` | `meta_refresh_delay` |
 | **Users should be able to zoom and scale the text up to 500%** | `Best Practice` | `meta-viewport-large` | `meta_viewport_zoom` |
 | **Zooming and scaling must not be disabled** | `WCAG 2.a.a`, `WCAG 1.4.4` | `meta-viewport` | `meta_viewport_zoom` |
 | **Interactive controls must not be nested** | `WCAG 2.0 A`, `WCAG 4.1.2` | `nested-interactive` | `aria_nested_interactive` |
-| **<video> or <audio> elements must not play automatically** | `WCAG 2.0 A`, `WCAG 1.4.2` | `no-autoplay-audio` | `video_caption_exists` |
-| **<object> elements must have alternate text** | `WCAG 2.0 A`, `WCAG 1.1.1`, `Section 508`, `508 22.a` | `object-alt` | `object_alt_exists` |
-| **Styled <p> elements must not be used as headings** | `WCAG 2.0 A`, `WCAG 1.3.1`, `experimental` | `p-as-heading` | `text_block_heading` |
+| **`<video>` or `<audio>` elements must not play automatically** | `WCAG 2.0 A`, `WCAG 1.4.2` | `no-autoplay-audio` | `video_caption_exists` |
+| **`<object>` elements must have alternate text** | `WCAG 2.0 A`, `WCAG 1.1.1`, `Section 508`, `508 22.a` | `object-alt` | `object_alt_exists` |
+| **Styled `<p>` elements must not be used as headings** | `WCAG 2.0 A`, `WCAG 1.3.1`, `experimental` | `p-as-heading` | `text_block_heading` |
 | **Page should contain a level-one heading** | `Best Practice` | `page-has-heading-one` | `heading_exists` |
 | **Ensure elements marked as presentational are consistently ignored** | `Best Practice` | `presentation-role-conflict` | `aria_role_allowed` |
 | **All page content should be contained by landmarks** | `Best Practice` | `region` | `aria_landmark_exists` |
@@ -95,13 +95,13 @@ This document lists the web accessibility rules covered by **Axe-core (v4.7.0)**
 | **Select element must have an accessible name** | `WCAG 2.0 A`, `WCAG 4.1.2`, `Section 508`, `508 22.n` | `select-name` | `input_label_exists` |
 | **Server-side image maps must not be used** | `WCAG 2.0 A`, `WCAG 2.1.1`, `Section 508`, `508 22.f` | `server-side-image-map` | `area_alt_exists` |
 | **The skip-link target should exist and be focusable** | `Best Practice` | `skip-link` | `skip_link_exists` |
-| **<svg> elements with an img role must have an alternative text** | `WCAG 2.0 A`, `WCAG 1.1.1`, `Section 508`, `508 22.a` | `svg-img-alt` | `aria_img_alt_exists` |
+| **`<svg>` elements with an img role must have an alternative text** | `WCAG 2.0 A`, `WCAG 1.1.1`, `Section 508`, `508 22.a` | `svg-img-alt` | `aria_img_alt_exists` |
 | **Elements should not have tabindex greater than zero** | `Best Practice` | `tabindex` | `aria_child_tabindex_proper` |
 | **tables should not have the same summary and caption** | `Best Practice` | `table-duplicate-name` | `table_caption_legend` |
 | **Data or header cells must not be used to give caption to a data table.** | `experimental`, `WCAG 2.0 A`, `WCAG 1.3.1`, `Section 508`, `508 22.g` | `table-fake-caption` | `table_caption_legend` |
 | **All touch targets must be 24px large, or leave sufficient space** | `WCAG 2.2 AA`, `WCAG 2.5.8` | `target-size` | `style_target_size` |
-| **Non-empty <td> elements in larger <table> must have an associated table header** | `experimental`, `WCAG 2.0 A`, `WCAG 1.3.1`, `Section 508`, `508 22.g` | `td-has-header` | `table_headers_exist` |
+| **Non-empty `<td>` elements in larger `<table>` must have an associated table header** | `experimental`, `WCAG 2.0 A`, `WCAG 1.3.1`, `Section 508`, `508 22.g` | `td-has-header` | `table_headers_exist` |
 | **Table cells that use the headers attribute must only refer to cells in the same table** | `WCAG 2.0 A`, `WCAG 1.3.1`, `Section 508`, `508 22.g` | `td-headers-attr` | `table_headers_exist` |
 | **Table headers in a data table must refer to data cells** | `WCAG 2.0 A`, `WCAG 1.3.1`, `Section 508`, `508 22.g`, `14.b` | `th-has-data-cells` | `table_headers_exist` |
 | **lang attribute must have a valid value** | `WCAG 2.a.a`, `WCAG 3.1.2` | `valid-lang` | `element_lang_valid` |
-| **<video> elements must have captions** | `WCAG 2.0 A`, `WCAG 1.2.2`, `Section 508`, `508 22.a` | `video-caption` | `track_kind_captions` |
+| **`<video>` elements must have captions** | `WCAG 2.0 A`, `WCAG 1.2.2`, `Section 508`, `508 22.a` | `video-caption` | `track_kind_captions` |
