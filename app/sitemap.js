@@ -18,6 +18,8 @@ const routes = [
   "services",
   "team",
   "team-details",
+  "shahadat-robin",
+  "demo-app",
 ];
 
 export default function sitemap() {
