@@ -4,6 +4,7 @@ import "@/styles/vendors/menu.css";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import { usePathname } from "next/navigation";
+import Script from "next/script";
 import { useEffect } from "react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -56,16 +57,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <script>
-          {`
-            var script = document.createElement("script");
-            script.id = "rum-script"; 
-            script.dataset.projectid = "AE-80375fbdaa"; 
-            script.type = "text/javascript"; 
-            script.src = "https://gateway-api.sitebeacon.io/v1/sb-script";
-            document.getElementsByTagName('body')[0].appendChild(script);
-          `}
-        </script>
+        <Script
+          id="rum-script"
+          src="https://gateway-api.sitebeacon.io/v1/sb-script"
+          data-projectid={"AE-80375fbdaa"}
+          strategy="afterInteractive"
+        />
       </head>
       <body
         className={`${DMSans.variable} ${ClashDisplay.variable} ${Raleway.variable} ${SpaceGrotesk.variable} ${inter.variable}`}
