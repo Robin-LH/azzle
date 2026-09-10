@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
           {`
             var script = document.createElement("script");
             script.id = "rum-script"; 
-            script.dataset.projectid = "AE-09e16170d6"; 
+            script.dataset.projectid = "AE-80375fbdaa"; 
             script.type = "text/javascript"; 
             script.src = "https://gateway-api.sitebeacon.io/v1/sb-script";
             document.getElementsByTagName('body')[0].appendChild(script);
